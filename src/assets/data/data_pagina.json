@@ -1,0 +1,21 @@
+{
+   "Descripcion":"Bienvenido a la tienda mas famosa de colombia donde encontraras muchos productos y grandes descuentos",
+   "Direccion":"Medellin Colombia crr 34, avenida poblado",
+   "Telefono":"+573008446455",
+   "Email":"servicedesk@gmail.com",
+   "Categoria1":"Hot Deals",
+   "Categoria2":"Computadores",
+   "Categoria3":"Celulares",
+   "Categoria4":"Camaras",
+   "Categoria5":"Accesorios",
+   "Informacion1":"Sobre Nosotros",
+   "Informacion2":"Contactos",
+   "Informacion3":"Privacidad",
+   "Informacion4":"Manual Pedidos",
+   "Informacion5":"Terminos y Condiciones",
+   "Service1":"Mi Cuenta",
+   "Service2":"Ver Carrito",
+   "Service3":"Lista Pedido",
+   "Service4":"Seguimiento de Orden",
+   "Service5":"Ayuda"
+}

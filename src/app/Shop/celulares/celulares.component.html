@@ -1,0 +1,26 @@
+<div class="section">
+        <!-- container -->
+        <div class="container">
+          <!-- row -->
+          <div class="row">
+            <!-- shop -->
+            <div *ngFor="let item of prodServ.celulares" class="col-md-4 col-xs-6">
+              <div class="shop">
+                <a [routerLink]="['/productos']">
+                    <div class="shop-img">
+                        <img [src]="item.imagen" alt="">
+                      </div>
+                      <div class="shop-body">
+                        <h3>{{item.descripcion}}<br>Collection</h3>
+                        <a href="#" class="cta-btn">Ver Ahora <i class="fa fa-arrow-circle-right"></i></a>
+                      </div>
+                </a>
+               
+              </div>
+            </div>
+         
+          </div>
+       
+        </div>
+      
+    </div>
