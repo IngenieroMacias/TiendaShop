@@ -8,7 +8,7 @@ import { InfoPagina } from '../interfaces/infoPagina.interface';
 export class InfopaginaService {
   
   info:InfoPagina={};
-  cargada:boolean=false;
+  cargada:boolean=true;
   constructor(private http:HttpClient) {
    this.cargarInfo();
   }
@@ -17,9 +17,12 @@ export class InfopaginaService {
     console.log("Servicio InfoPagina Service")
     this.http.get('../../assets/data/data_pagina.json')
     .subscribe((resp:InfoPagina)=>{
-      this.cargada=true;
       this.info=resp;
       console.log(this.info);
+
+      setTimeout(() => {
+        this.cargada=false;
+      }, 2000);
     });
   }
   
