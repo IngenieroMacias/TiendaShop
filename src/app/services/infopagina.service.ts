@@ -14,11 +14,10 @@ export class InfopaginaService {
   }
 
   private cargarInfo(){
-    console.log("Servicio InfoPagina Service")
+
     this.http.get('../../assets/data/data_pagina.json')
     .subscribe((resp:InfoPagina)=>{
       this.info=resp;
-      console.log(this.info);
 
       setTimeout(() => {
         this.cargada=false;

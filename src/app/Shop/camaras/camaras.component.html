@@ -6,7 +6,7 @@
             <!-- shop -->
             <div *ngFor="let item of productServ.camaras" class="col-md-4 col-xs-6">
               <div class="shop">
-                <a [routerLink]="['/productos']">
+                <a [routerLink]="['/productos',item.codigo]">
                     <div class="shop-img">
                         <img [src]="item.imagen" alt="">
                       </div>

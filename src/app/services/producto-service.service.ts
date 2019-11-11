@@ -19,8 +19,11 @@ export class ProductoServiceService {
     .subscribe((res:any[])=>{
       this.compu=res;
       console.log(this.compu);
-      ;
     })
+  }
+
+  getProductos(id:string){
+   return this.http.get(`https://tiendaapp-70086.firebaseio.com/productos/${id}.json`);
   }
 
   celulares={}
